@@ -22,6 +22,8 @@ TrustOSS specification is a set of documentation files that are regularly mainta
 
 #### v0.1.2 - Aug 15, 2016
 
+[Essential Files](https://github.com/trustoss/essential-files/releases/tag/v0.1.2)
+
 ##### Required Files
 
 File | Acceptable Filenames | Purpose | Update Frequency
