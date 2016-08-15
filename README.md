@@ -4,7 +4,7 @@
 
 Open Source Software you can trust. A set of standards for Open Source Software projects that establish and maintain trust in your community. A Code for San Francisco Infrastructure Initiative.
 
-- [v0.1.2](#v012)
+- [v0.1.2 - Aug 15, 2016](#v012---aug-15-2016)
 - [pre-v1](#pre-v1)
 
 ### Purpose
