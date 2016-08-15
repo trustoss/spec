@@ -32,6 +32,7 @@ Source Code | *various* | The source code must be provided with the repository, 
 TrustOSS Configuration | `.trustoss`, `trustoss.json`, `docs.json` | Establish the version of specification and location/types of documentation files | Filename changes, updates to spec, version bump
 Base Documentation | `README`, `README.md`, `readme.md` | "Landing page" of the repository, the first place new developers will look for information about the project, installation guide (or link to them), usage and troubleshooting. | When there is an update to installation, usage, or troubleshooting steps
 Changelog | `CHANGELOG`, `CHANGELOG.md`, `changelog.md` | Notable changes to code or API, corresponding with git tagged version releases | version bump
+Contributing | `CONTRIBUTING`, `CONTRIBUTING.md`, `contributing.md` | Information related to onboarding new contributors | when build steps change
 License | `LICENSE`, `LICENSE.md`, `license.md` | Lets developers know the legal status of project usage | as desired
 Code of Conduct | `COC`, `CODEOFCONDUCT`, `COC.md`, `CODEOFCONDUCT.md`, `codeofconduct.md`, `coc.md` | Lets developers know the rules of engagement while communicating with maintainers and other contributors. No specific coc is required, just that there is one. | as desired
 
