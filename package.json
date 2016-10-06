@@ -4,7 +4,7 @@
   "description": "A set of standards for Open Source Software projects that establish and maintain trust in your community.",
   "main": "spec.js",
   "scripts": {
-    "test": "tap *.spec.js"
+    "test": "tap ./**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,54 @@
   "homepage": "https://github.com/trustoss/spec#readme",
   "dependencies": {
     "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "careful": "^1.1.0",
+    "ghooks": "^1.3.2",
+    "standard": "^8.3.0",
+    "tap": "^7.1.2",
+    "validate-commit-msg": "^2.8.2"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "helpMessage": "Commit message \n\n\t%s\nis not following this project's commit standards. Please follow Angular Commit Message Standards."
+    },
+    "careful": {
+      "prefixes": [
+        "feature",
+        "fix",
+        "release",
+        "docs"
+      ],
+      "suggestions": {
+        "features": "feature",
+        "feat": "feature",
+        "bugfix": "fix",
+        "hotfix": "fix",
+        "bug": "fix",
+        "releases": "release",
+        "doc": "docs"
+      },
+      "skip": [
+        "demo",
+        "develop"
+      ],
+      "disallowed": [
+        "edge",
+        "master"
+      ],
+      "banned": [
+        "wip"
+      ],
+      "seperator": "/",
+      "msgBranchBanned": "Branch name %s banned from push usage",
+      "msgPrefixNotAllowed": "Branch must have an appropriate prefix (feature, hotfix, bugfix, docs)",
+      "msgSeperatorRequired": "Branch must have an appropriate prefix (feature, hotfix, bugfix, docs)"
+    },
+    "ghooks": {
+      "pre-commit": "careful",
+      "commit-msg": "validate-commit-msg",
+      "pre-push": "npm test"
+    }
   }
 }
