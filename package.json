@@ -1,0 +1,36 @@
+{
+  "name": "trustoss-spec",
+  "version": "0.0.2",
+  "description": "A set of standards for Open Source Software projects that establish and maintain trust in your community.",
+  "main": "spec.js",
+  "scripts": {
+    "test": "tap *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trustoss/spec.git"
+  },
+  "keywords": [
+    "spec",
+    "docs",
+    "documentation",
+    "opensource",
+    "open",
+    "source",
+    "oss",
+    "readme",
+    "trustoss",
+    "trust",
+    "ossmanifesto",
+    "manifesto"
+  ],
+  "author": "Ozzy Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustoss/spec/issues"
+  },
+  "homepage": "https://github.com/trustoss/spec#readme",
+  "dependencies": {
+    "require-dir": "^0.3.0"
+  }
+}
