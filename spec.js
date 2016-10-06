@@ -1,3 +1,5 @@
+require("babel-core/register")
+
 const requireDir = require('require-dir')
 
 module.exports = {
